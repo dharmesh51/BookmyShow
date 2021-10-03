@@ -38,7 +38,7 @@ const MovieInfopage = () => {
             <div className="hidden lg:block lg:w-1/4 ">
             <h1 className="text-gray-700 text-2xl md:text-4xl lg:text-3xl mb-4 font-semibold">Filters</h1>
             <div className=" flex flex-col gap-2  " >
-                <Filter title ="Date" tags={["ToDay","Tomorrow","This Weekend"]}  />
+                <Filter title ="Date" tags={["Today","Tomorrow","This Weekend"]}  />
                 <Filter title ="Categories" tags={["E Sports","Running"]} />
                 <Filter title ="Price" tags={["Free","0-500","501-2000","Above 2000"]} />
                 <Filter title ="More Filters" tags={["Kids Allowed","Online Streaming","Outdoor Events"]} />
